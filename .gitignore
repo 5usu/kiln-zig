@@ -1,0 +1,10 @@
+.zig-cache/
+zig-out/
+bench/data/
+bench/bin/
+__pycache__/
+zig-out-safe/
+.tools/
+bench/baseline/lib/
+.venv-report/
+bench/ci-smoke.json

@@ -1,0 +1,15 @@
+{
+  "JSONTestSuite": {
+    "must_accept": 95,
+    "must_reject": 188,
+    "implementation_defined_accept": 5,
+    "implementation_defined_reject": 30
+  },
+  "generated_semantic_cases": 100000,
+  "mutated_differential_cases": 100000,
+  "vector_boundary_cases": 1028,
+  "workload_semantic_cases": 7,
+  "arbitrary_byte_cases": 100000,
+  "reference_policy": "strict JSON constants, finite f64 numbers; overflow rejected to match documented Kiln policy",
+  "failures": []
+}

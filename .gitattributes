@@ -1,0 +1,7 @@
+# Invalid UTF-8 and line endings are intentional test inputs.
+vendor/JSONTestSuite/test_parsing/** -text
+*.png binary
+*.svg text eol=lf
+# Preserve upstream fixtures/source and generated SVG path formatting.
+vendor/** -whitespace
+bench/*.svg -whitespace

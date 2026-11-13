@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+PROJECT_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+if [[ -n "${ZIG:-}" && "$ZIG" != "$0" && "$ZIG" != "$PROJECT_ROOT/scripts/zig" ]]; then exec "$ZIG" "$@"; fi
+if command -v zig >/dev/null 2>&1 && [[ "$(zig version)" == "0.15.2" ]]; then exec zig "$@"; fi
+if [[ ! -x "$PROJECT_ROOT/.tools/zig/zig" ]]; then python3 "$PROJECT_ROOT/scripts/setup_zig.py" >&2; fi
+exec "$PROJECT_ROOT/.tools/zig/zig" "$@"

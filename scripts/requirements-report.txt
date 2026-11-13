@@ -1,0 +1,3 @@
+# Python >=3.12. Versions used to render the checked-in figures.
+matplotlib==3.11.2
+numpy==2.5.4

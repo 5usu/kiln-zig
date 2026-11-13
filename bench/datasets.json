@@ -1,0 +1,51 @@
+[
+  {
+    "file": "telemetry.json",
+    "kind": "synthetic",
+    "generator": "scripts/datasets.py",
+    "sha256": "fe9efe3ed2dd59cbb70ede362cc6424a3ed3011740aa37f229e889e5cf140da5",
+    "bytes": 350396
+  },
+  {
+    "file": "integers.json",
+    "kind": "synthetic",
+    "generator": "scripts/datasets.py",
+    "sha256": "4719eedd8afae4d9c64cd31294a2a327d660fcababf01999230c77fe089a5cf5",
+    "bytes": 302785
+  },
+  {
+    "file": "strings.json",
+    "kind": "synthetic",
+    "generator": "scripts/datasets.py",
+    "sha256": "b4e384938a99c6a251f4db9777c1bf749de8589f6cfac2c62367ec16948944a5",
+    "bytes": 620001
+  },
+  {
+    "file": "escaped.json",
+    "kind": "synthetic",
+    "generator": "scripts/datasets.py",
+    "sha256": "1fc9fa2acb92e6d41f77b0ddd0d73012b9d9ce892727a89eaf43eca6b98fc85f",
+    "bytes": 274891
+  },
+  {
+    "file": "twitter.json",
+    "kind": "public",
+    "source": "https://github.com/miloyip/nativejson-benchmark/blob/478d5727c2a4048e835a29c65adecc7d795360d5/data/twitter.json",
+    "sha256": "a08b769f32b95f426cbc3abafcec65c1a19d3eb544d4ddf320eae142c99efc5d",
+    "bytes": 631514
+  },
+  {
+    "file": "canada.json",
+    "kind": "public",
+    "source": "https://github.com/miloyip/nativejson-benchmark/blob/478d5727c2a4048e835a29c65adecc7d795360d5/data/canada.json",
+    "sha256": "f83b3b354030d5dd58740c68ac4fecef64cb730a0d12a90362a7f23077f50d78",
+    "bytes": 2251051
+  },
+  {
+    "file": "citm_catalog.json",
+    "kind": "public",
+    "source": "https://github.com/miloyip/nativejson-benchmark/blob/478d5727c2a4048e835a29c65adecc7d795360d5/data/citm_catalog.json",
+    "sha256": "a73e7a883f6ea8de113dff59702975e60119b4b58d451d518a929f31c92e2059",
+    "bytes": 1727204
+  }
+]

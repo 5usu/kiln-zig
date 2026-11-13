@@ -1,0 +1,23 @@
+name: parser-checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Unit, allocation-failure, corpus and differential checks
+        run: CASES=10000 ./scripts/test.sh
+      - name: Build original parser and exercise the benchmark
+        run: |
+          ./scripts/build_baseline.sh
+          BENCH_CPU=$(python3 -c 'import os; print(min(os.sched_getaffinity(0)))')
+          python3 scripts/bench.py --baseline-lib bench/baseline/lib --cpu "$BENCH_CPU" --samples 3 --duration-ms 25 --datasets strings citm_catalog --output bench/ci-smoke.json
+      - name: Render the checked-in benchmark report
+        run: |
+          python3 -m pip install -r scripts/requirements-report.txt
+          python3 scripts/report.py

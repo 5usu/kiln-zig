@@ -1,0 +1,341 @@
+{
+  "method": "5000 paired sample-round bootstrap resamples; ratio of median times; deterministic seed; intervals describe within-run sampling variation only",
+  "comparisons": [
+    {
+      "dataset": "canada",
+      "mode": "parse",
+      "reference": "yyjson",
+      "throughput_ratio": 0.7369429161367143,
+      "bootstrap_95_low": 0.7107733279908655,
+      "bootstrap_95_high": 0.7503100924179013
+    },
+    {
+      "dataset": "canada",
+      "mode": "parse",
+      "reference": "cjson",
+      "throughput_ratio": 9.38507265908096,
+      "bootstrap_95_low": 9.059363835953558,
+      "bootstrap_95_high": 9.44086892711364
+    },
+    {
+      "dataset": "canada",
+      "mode": "parse",
+      "reference": "kiln_v1",
+      "throughput_ratio": 2.2259185635673258,
+      "bootstrap_95_low": 2.1239396250212774,
+      "bootstrap_95_high": 2.2458781726882626
+    },
+    {
+      "dataset": "citm_catalog",
+      "mode": "parse",
+      "reference": "yyjson",
+      "throughput_ratio": 1.3432880613594174,
+      "bootstrap_95_low": 1.2365546194009143,
+      "bootstrap_95_high": 1.3513703322969082
+    },
+    {
+      "dataset": "citm_catalog",
+      "mode": "parse",
+      "reference": "cjson",
+      "throughput_ratio": 5.099248209799299,
+      "bootstrap_95_low": 4.841719472673335,
+      "bootstrap_95_high": 5.149748492953397
+    },
+    {
+      "dataset": "citm_catalog",
+      "mode": "parse",
+      "reference": "kiln_v1",
+      "throughput_ratio": 1.7735092302736775,
+      "bootstrap_95_low": 1.7438162382195825,
+      "bootstrap_95_high": 1.7944778675927195
+    },
+    {
+      "dataset": "twitter",
+      "mode": "parse",
+      "reference": "yyjson",
+      "throughput_ratio": 0.618459181058253,
+      "bootstrap_95_low": 0.6061832480362634,
+      "bootstrap_95_high": 0.6265961272613452
+    },
+    {
+      "dataset": "twitter",
+      "mode": "parse",
+      "reference": "cjson",
+      "throughput_ratio": 2.309804000776972,
+      "bootstrap_95_low": 2.2834335108831554,
+      "bootstrap_95_high": 2.3639907291707036
+    },
+    {
+      "dataset": "twitter",
+      "mode": "parse",
+      "reference": "kiln_v1",
+      "throughput_ratio": 1.33520077248682,
+      "bootstrap_95_low": 1.3307739521162434,
+      "bootstrap_95_high": 1.3580561622984073
+    },
+    {
+      "dataset": "telemetry",
+      "mode": "parse",
+      "reference": "yyjson",
+      "throughput_ratio": 0.6770309898117611,
+      "bootstrap_95_low": 0.6752472909965078,
+      "bootstrap_95_high": 0.6846951079779424
+    },
+    {
+      "dataset": "telemetry",
+      "mode": "parse",
+      "reference": "cjson",
+      "throughput_ratio": 10.896587254760579,
+      "bootstrap_95_low": 10.478716733663825,
+      "bootstrap_95_high": 11.06024711791473
+    },
+    {
+      "dataset": "telemetry",
+      "mode": "parse",
+      "reference": "kiln_v1",
+      "throughput_ratio": 2.715489688001891,
+      "bootstrap_95_low": 2.6039400997820024,
+      "bootstrap_95_high": 2.7531466771935564
+    },
+    {
+      "dataset": "integers",
+      "mode": "parse",
+      "reference": "yyjson",
+      "throughput_ratio": 0.705671012186649,
+      "bootstrap_95_low": 0.6990985899389122,
+      "bootstrap_95_high": 0.7114127295092469
+    },
+    {
+      "dataset": "integers",
+      "mode": "parse",
+      "reference": "cjson",
+      "throughput_ratio": 14.117560999724407,
+      "bootstrap_95_low": 13.39623634205634,
+      "bootstrap_95_high": 14.228055673011374
+    },
+    {
+      "dataset": "integers",
+      "mode": "parse",
+      "reference": "kiln_v1",
+      "throughput_ratio": 2.4986208362357325,
+      "bootstrap_95_low": 2.453062390855137,
+      "bootstrap_95_high": 2.518750967812374
+    },
+    {
+      "dataset": "strings",
+      "mode": "parse",
+      "reference": "yyjson",
+      "throughput_ratio": 2.9831631013681554,
+      "bootstrap_95_low": 2.972187884092092,
+      "bootstrap_95_high": 3.0309508597646047
+    },
+    {
+      "dataset": "strings",
+      "mode": "parse",
+      "reference": "cjson",
+      "throughput_ratio": 15.593397845868392,
+      "bootstrap_95_low": 15.48671196485935,
+      "bootstrap_95_high": 15.766876221405347
+    },
+    {
+      "dataset": "strings",
+      "mode": "parse",
+      "reference": "kiln_v1",
+      "throughput_ratio": 3.3436308467755915,
+      "bootstrap_95_low": 3.297333652480272,
+      "bootstrap_95_high": 3.390225438209864
+    },
+    {
+      "dataset": "escaped",
+      "mode": "parse",
+      "reference": "yyjson",
+      "throughput_ratio": 0.45053618178533283,
+      "bootstrap_95_low": 0.4436507020697508,
+      "bootstrap_95_high": 0.45278042311182276
+    },
+    {
+      "dataset": "escaped",
+      "mode": "parse",
+      "reference": "cjson",
+      "throughput_ratio": 2.7671209213110766,
+      "bootstrap_95_low": 2.7534678465006315,
+      "bootstrap_95_high": 2.78953873496502
+    },
+    {
+      "dataset": "escaped",
+      "mode": "parse",
+      "reference": "kiln_v1",
+      "throughput_ratio": 2.2650811245710445,
+      "bootstrap_95_low": 2.2063278169187823,
+      "bootstrap_95_high": 2.2861226615426267
+    },
+    {
+      "dataset": "canada",
+      "mode": "traverse",
+      "reference": "yyjson",
+      "throughput_ratio": 0.8777139674748448,
+      "bootstrap_95_low": 0.8461496148111624,
+      "bootstrap_95_high": 0.8875251654501498
+    },
+    {
+      "dataset": "canada",
+      "mode": "traverse",
+      "reference": "cjson",
+      "throughput_ratio": 8.604647063948432,
+      "bootstrap_95_low": 8.281732112511522,
+      "bootstrap_95_high": 8.622446792766059
+    },
+    {
+      "dataset": "canada",
+      "mode": "traverse",
+      "reference": "kiln_v1",
+      "throughput_ratio": 2.059996235775736,
+      "bootstrap_95_low": 1.9643797388019062,
+      "bootstrap_95_high": 2.0768870897968488
+    },
+    {
+      "dataset": "citm_catalog",
+      "mode": "traverse",
+      "reference": "yyjson",
+      "throughput_ratio": 1.2331213714107332,
+      "bootstrap_95_low": 1.1662524501613647,
+      "bootstrap_95_high": 1.2499561465336915
+    },
+    {
+      "dataset": "citm_catalog",
+      "mode": "traverse",
+      "reference": "cjson",
+      "throughput_ratio": 3.9850448438268504,
+      "bootstrap_95_low": 3.812664493240538,
+      "bootstrap_95_high": 4.0425727079033225
+    },
+    {
+      "dataset": "citm_catalog",
+      "mode": "traverse",
+      "reference": "kiln_v1",
+      "throughput_ratio": 1.5304133224567682,
+      "bootstrap_95_low": 1.5191594836223767,
+      "bootstrap_95_high": 1.5764952192424049
+    },
+    {
+      "dataset": "twitter",
+      "mode": "traverse",
+      "reference": "yyjson",
+      "throughput_ratio": 0.786758350894097,
+      "bootstrap_95_low": 0.7593602920746699,
+      "bootstrap_95_high": 0.7927574276020243
+    },
+    {
+      "dataset": "twitter",
+      "mode": "traverse",
+      "reference": "cjson",
+      "throughput_ratio": 1.8409725678831477,
+      "bootstrap_95_low": 1.827792322209681,
+      "bootstrap_95_high": 1.8496459997035348
+    },
+    {
+      "dataset": "twitter",
+      "mode": "traverse",
+      "reference": "kiln_v1",
+      "throughput_ratio": 1.2155869881001022,
+      "bootstrap_95_low": 1.1910161177960419,
+      "bootstrap_95_high": 1.2229729582627122
+    },
+    {
+      "dataset": "telemetry",
+      "mode": "traverse",
+      "reference": "yyjson",
+      "throughput_ratio": 0.8038486503439634,
+      "bootstrap_95_low": 0.7989817141746729,
+      "bootstrap_95_high": 0.8105911961945618
+    },
+    {
+      "dataset": "telemetry",
+      "mode": "traverse",
+      "reference": "cjson",
+      "throughput_ratio": 6.9010468858319065,
+      "bootstrap_95_low": 6.488661726865877,
+      "bootstrap_95_high": 6.972978784547955
+    },
+    {
+      "dataset": "telemetry",
+      "mode": "traverse",
+      "reference": "kiln_v1",
+      "throughput_ratio": 1.9862770097215274,
+      "bootstrap_95_low": 1.9288808853518393,
+      "bootstrap_95_high": 1.9957649735538587
+    },
+    {
+      "dataset": "integers",
+      "mode": "traverse",
+      "reference": "yyjson",
+      "throughput_ratio": 0.8121221972086062,
+      "bootstrap_95_low": 0.8027739634415026,
+      "bootstrap_95_high": 0.8179449372362696
+    },
+    {
+      "dataset": "integers",
+      "mode": "traverse",
+      "reference": "cjson",
+      "throughput_ratio": 11.110544430920557,
+      "bootstrap_95_low": 10.616402191643148,
+      "bootstrap_95_high": 11.165937532145149
+    },
+    {
+      "dataset": "integers",
+      "mode": "traverse",
+      "reference": "kiln_v1",
+      "throughput_ratio": 2.114119383296476,
+      "bootstrap_95_low": 2.0919412672804496,
+      "bootstrap_95_high": 2.129750160672837
+    },
+    {
+      "dataset": "strings",
+      "mode": "traverse",
+      "reference": "yyjson",
+      "throughput_ratio": 1.176540285422081,
+      "bootstrap_95_low": 1.168812141368366,
+      "bootstrap_95_high": 1.180031762818988
+    },
+    {
+      "dataset": "strings",
+      "mode": "traverse",
+      "reference": "cjson",
+      "throughput_ratio": 2.3125838779420773,
+      "bootstrap_95_low": 2.2825724521170425,
+      "bootstrap_95_high": 2.3140008925379467
+    },
+    {
+      "dataset": "strings",
+      "mode": "traverse",
+      "reference": "kiln_v1",
+      "throughput_ratio": 1.2138499947328503,
+      "bootstrap_95_low": 1.2065746293901132,
+      "bootstrap_95_high": 1.2197076051610025
+    },
+    {
+      "dataset": "escaped",
+      "mode": "traverse",
+      "reference": "yyjson",
+      "throughput_ratio": 0.6570821215570692,
+      "bootstrap_95_low": 0.6555655607516861,
+      "bootstrap_95_high": 0.6594231767799212
+    },
+    {
+      "dataset": "escaped",
+      "mode": "traverse",
+      "reference": "cjson",
+      "throughput_ratio": 2.0969005264459155,
+      "bootstrap_95_low": 2.0926518594207724,
+      "bootstrap_95_high": 2.112064806210085
+    },
+    {
+      "dataset": "escaped",
+      "mode": "traverse",
+      "reference": "kiln_v1",
+      "throughput_ratio": 1.8032668861576606,
+      "bootstrap_95_low": 1.7663639962246314,
+      "bootstrap_95_high": 1.8135645799991476
+    }
+  ]
+}

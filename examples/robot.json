@@ -1,0 +1,8 @@
+{
+  "robot": "arm",
+  "rate_hz": 30,
+  "pose": [0.25, -0.125, 1.75],
+  "gripper_open": true,
+  "task": "pick_and_place",
+  "note": "Owned strings, decoded Unicode: \uD83E\uDD16"
+}
